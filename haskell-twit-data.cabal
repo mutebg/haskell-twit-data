@@ -1,0 +1,22 @@
+name:                haskell-twit-data
+version:             0.1.0.0
+-- synopsis:
+-- description:
+homepage:            https://github.com/mutebg/haskell-twit-data#readme
+license:             BSD3
+license-file:        LICENSE
+author:              Stoyan Delev
+maintainer:          i@stoyandelev.com
+copyright:           none
+category:            Web
+build-type:          Simple
+cabal-version:       >=1.10
+extra-source-files:  README.md
+
+executable haskell-twit-data
+  hs-source-dirs:      src
+  main-is:             Main.hs
+  default-language:    Haskell2010
+  build-depends:       base >= 4.7 && < 5,
+                       scotty,
+                       aeson
