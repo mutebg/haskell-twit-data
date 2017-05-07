@@ -19,4 +19,9 @@ executable haskell-twit-data
   default-language:    Haskell2010
   build-depends:       base >= 4.7 && < 5,
                        scotty,
-                       aeson
+                       aeson,
+                       twitter-feed,
+                       authenticate,
+                       authenticate-oauth,
+                       wai-extra,
+                       text
